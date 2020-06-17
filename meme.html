@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="meme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="heading-box">MEME MAKER</h1>
+    <h2 class="subhead-box">Add an Image & Some Text to Create an Awesome Meme! (Double Click to Remove)</h2>
+   <form class="form-box">
+    <div class="url-box">
+    <input type="url" class="url-box" id="imageURL" placeholder="Enter Image URL">
+    </div>
+    <div class="top-box">
+    <input type="text" id="top-text" placeholder="Enter Text to Place on Top">
+    </div>
+    <div class="bottom-box">
+    <input type="text" id= "bottom-text" placeholder="Enter Text to Place on Bottom"><br>
+    </div>
+    <div class="submit-box">
+    <input type="submit" id="make-meme" value="Make-Meme"></input>
+    </div>
+    </form>
+   <ul id="meme-list" class="flexbox-container">
+   </ul>
+   <script src="meme.js"></script>    
+</body>
+</html>

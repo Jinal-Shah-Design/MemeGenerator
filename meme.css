@@ -1,0 +1,109 @@
+
+
+body {
+    background-image: url("images/Group.png"); 
+    background-size: cover;
+}
+
+input[type=text], 
+input[type=URL] {
+    width: 700px;
+    height: 30px;
+    margin-bottom: 20px;
+    padding-left: 24px;
+}
+
+.imageURL {
+    margin-top: 8vh;
+}
+
+.heading-box {
+    display: flex; 
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    margin-bottom: -10px;
+}
+
+.url-box, 
+.top-box, 
+.bottom-box, 
+.submit-box 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.subhead-box {
+    display: flex; 
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Roboto', sans-serif;
+    color: rgb(252, 205, 248);
+}
+
+#make-meme {
+    height: 5vh;
+    border: none;
+    width: 24vh; 
+    background-color: rgb(160, 155, 243);
+    color: #181819;
+    font-size: 16px;
+    font-family: 'Fjalla One', sans-serif;
+    border-radius: 12px;
+}
+
+.meme-container {
+    position: relative;
+    display: flex; 
+    padding: 10px;
+    height: 400px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hover {
+    filter: blur(75%);
+    opacity: .75;
+    
+}
+
+.top {
+    position: absolute;
+    top: 5%;
+    color: white;
+    background-color:rgba(0,0,0,0.6);
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    padding: 6px 20px; 
+}
+
+.bottom {
+    position: absolute;
+    bottom: 5%;
+    color: white;
+    font-size: 20px;
+    background-color:rgba(0,0,0,0.6);
+    font-family: 'Fjalla One', sans-serif;
+    padding: 10px; 
+}
+
+.image {
+    height: 400px;
+    width: 350px;
+    object-fit:  cover; 
+    background-color: #181819;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.flexbox-container {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: left;
+    height: 400px; 
+}
+
